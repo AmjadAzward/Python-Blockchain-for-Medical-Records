@@ -6,12 +6,13 @@ A simple but powerful blockchain simulation in Python to demonstrate how medical
 
 ## 📦 Features
 
-- ✅ Custom block structure with index, timestamp, transactions, and hash
-- 🔐 SHA-256 hashing to ensure data integrity
-- ⛏ Proof-of-Work mining with adjustable difficulty
-- 📋 Add medical transactions (e.g., lab results, prescriptions)
-- 🏥 Simulated reward system for miners (hospitals, labs)
-- 🔎 Blockchain validation and tamper detection
+- Wallet balance tracking for users (patients, doctors, miners)
+- Transaction validation to prevent overspending
+- Proof-of-Work mining with adjustable difficulty
+- Mining rewards to incentivize miners
+- Limit on transactions per block for realistic block size
+- Human-readable timestamps in blocks
+- Save and load blockchain state from JSON file
 
 ---
 
